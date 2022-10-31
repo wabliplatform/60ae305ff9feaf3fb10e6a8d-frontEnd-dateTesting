@@ -1,8 +1,8 @@
 let apiProjectApi = new TempApi.ProjectApi();import TempApi from '../src/index';document.getElementById('ip6ks').onclick = (event) => {
     event.preventDefault();
-    {  location.href= '/AddProject' ;}};document.getElementById('ipmoz').onclick = (event) => {
+    {   location.href= '/AddProject' ;}};document.getElementById('ipmoz').onclick = (event) => {
     event.preventDefault();
-    { 
+    {  
       let transitionId = window.location.href.split('/').at(-1);
       let parentId = "";
       const storedData = window.localStorage.getItem("data");
@@ -38,9 +38,9 @@ let apiProjectApi = new TempApi.ProjectApi();import TempApi from '../src/index';
           }
         });
       }
-    apiProjectApi.deleteproject( projectId, (error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully.');{  location.href= '/Dashboard' ;}}});};document.getElementById('ilgkj').onclick = (event) => {
+    apiProjectApi.deleteproject( projectId, (error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully.');{   location.href= '/Dashboard' ;}}});};document.getElementById('ilgkj').onclick = (event) => {
     event.preventDefault();
-    { 
+    {  
       let transitionId = window.location.href.split('/').at(-1);
       let parentId = "";
       const storedData = window.localStorage.getItem("data");
@@ -78,7 +78,7 @@ let apiProjectApi = new TempApi.ProjectApi();import TempApi from '../src/index';
       }
     apiProjectApi.deleteproject( projectId, (error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully.');}});};document.getElementById('i7uucq').onclick = (event) => {
     event.preventDefault();
-    { 
+    {  
       let transitionId = window.location.href.split('/').at(-1);
       let parentId = "";
       const storedData = window.localStorage.getItem("data");
@@ -116,7 +116,7 @@ let apiProjectApi = new TempApi.ProjectApi();import TempApi from '../src/index';
       }
     apiProjectApi.deleteproject( projectId, (error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully.');}});};document.getElementById('iqfsbf').onclick = (event) => {
     event.preventDefault();
-    { 
+    {  
       let transitionId = window.location.href.split('/').at(-1);
       let parentId = "";
       const storedData = window.localStorage.getItem("data");
@@ -154,7 +154,7 @@ let apiProjectApi = new TempApi.ProjectApi();import TempApi from '../src/index';
       }
     apiProjectApi.deleteproject( projectId, (error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully.');}});};document.getElementById('iqauu9').onclick = (event) => {
     event.preventDefault();
-    { 
+    {  
       let transitionId = window.location.href.split('/').at(-1);
       let parentId = "";
       const storedData = window.localStorage.getItem("data");
